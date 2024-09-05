@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix/pages/movies_page.dart';
 
 class WhoWatchingPage extends StatelessWidget {
   const WhoWatchingPage({super.key});
@@ -21,8 +22,21 @@ class WhoWatchingPage extends StatelessWidget {
           ],
         ),
         actions: [
-          Image.asset("assets/images/pencil_icon.png",height: 19, width: 21,)
+          GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MoviesPage()),
+              );
+            },
+            child: Image.asset(
+              "assets/images/pencil_icon.png",
+              height: 19,
+              width: 21,
+            ),
+          ),
         ],
+
       ),
       body: Center(
         child: Column(
