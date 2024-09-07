@@ -21,8 +21,11 @@ class MovieCatelogs extends StatelessWidget {
       child: Row(
         children: [
           imageMovie1,
+          SizedBox(width: 6,),
           imageMovie2,
+          SizedBox(width: 6,),
           imageMovie3,
+          SizedBox(width: 6,),
           imageMovie4
         ],
       ),

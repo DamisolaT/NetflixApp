@@ -47,6 +47,7 @@ class _HomePageState extends State<HomePage> {
               backgroundColor: Colors.white,
               icon: Image.asset(
                 'assets/images/home.png',
+                color: Colors.black,
                 width: 21,
                 height: 23,
               ),
@@ -57,6 +58,7 @@ class _HomePageState extends State<HomePage> {
               backgroundColor: Colors.white,
               icon: Image.asset(
                 'assets/images/news.png',
+                color: Colors.black,
                 width: 21,
                 height: 23,
               ),
@@ -67,6 +69,7 @@ class _HomePageState extends State<HomePage> {
               backgroundColor: Colors.white,
               icon: Image.asset(
                 'assets/images/search.png',
+                color: Colors.black,
                 width: 21,
                 height: 23,
               ),
@@ -76,7 +79,8 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               backgroundColor: Colors.white,
               icon: Image.asset(
-                'assets/images/download.png',
+                'assets/images/downloads.png',
+                color: Colors.black,
                 width: 21,
                 height: 23,
               ),

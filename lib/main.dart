@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix/home_page.dart';
 import 'package:netflix/splash_screen.dart';
 
 void main() {

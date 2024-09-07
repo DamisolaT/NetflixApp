@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix/home_page.dart';
 import 'package:netflix/pages/movies_page.dart';
 
 class WhoWatchingPage extends StatelessWidget {
@@ -26,7 +27,7 @@ class WhoWatchingPage extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => MoviesPage()),
+                MaterialPageRoute(builder: (context) => HomePage()),
               );
             },
             child: Image.asset(
