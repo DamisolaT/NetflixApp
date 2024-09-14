@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/pages/who_watching_page.dart';
+import 'package:netflix/auth/who_watching_page.dart';
 import 'package:netflix/widgets/get_started_button.dart';
 import 'package:netflix/widgets/textformfield.dart';
 

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:netflix/pages/sign_in_page.dart';
+import 'package:netflix/auth/sign_in_page.dart';
 import 'package:netflix/widgets/get_started_button.dart';
 import 'package:netflix/widgets/textformfield.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/home_page.dart';
-import 'package:netflix/splash_screen.dart';
+import 'package:netflix/auth/home_page.dart';
+import 'package:netflix/onboard/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:SplashScreen()
+      home: const SplashScreen()
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/home_page.dart';
-import 'package:netflix/pages/movies_page.dart';
+import 'package:netflix/auth/home_page.dart';
+import 'package:netflix/dashboard/movies_page.dart';
 
 class WhoWatchingPage extends StatelessWidget {
   const WhoWatchingPage({super.key});

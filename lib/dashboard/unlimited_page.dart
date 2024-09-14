@@ -1,9 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:netflix/pages/get_started_page.dart';
-import 'package:netflix/pages/who_watching_page.dart';
-
-import 'widgets/get_started_button.dart';
+import 'package:netflix/onboard/get_started_page.dart';
+import 'package:netflix/auth/who_watching_page.dart';
+import 'package:netflix/shared/style/app_image.dart';
+import 'package:netflix/shared/widgets/get_started_button.dart';
+import 'package:netflix/widgets/get_started_button.dart';
 
 class UnlimitedPage extends StatelessWidget {
   const UnlimitedPage({super.key});
@@ -14,16 +15,17 @@ class UnlimitedPage extends StatelessWidget {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/images/background_img.png"), fit: BoxFit.cover)
+              image: AssetImage(AppImage.backgroundImage), fit: BoxFit.cover)
         ),
         child: SafeArea(
             child: Center(
               child: Column(
                 children: [
                   Spacer(),
-                  Text(
+
+                  const Text(
                      "Unlimited",
                   style: TextStyle(
                       color: Color(0xFFFFFCFC),

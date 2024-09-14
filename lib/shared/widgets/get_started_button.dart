@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:netflix/pages/get_started_page.dart';
+import 'package:netflix/onboard/get_started_page.dart';
 
 class GetStartedButton extends StatelessWidget {
   final VoidCallback onPressed;

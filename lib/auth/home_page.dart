@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:netflix/downloads_page.dart';
-import 'package:netflix/new_hot_page.dart';
-import 'package:netflix/pages/movies_page.dart';
+import 'package:netflix/dashboard/downloads_page.dart';
+import 'package:netflix/dashboard/new_hot_page.dart';
+import 'package:netflix/dashboard/movies_page.dart';
 
-import 'search_page.dart';
+import '../dashboard/search_page.dart';
 
 
 
