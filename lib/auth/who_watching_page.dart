@@ -112,7 +112,7 @@ class WhoWatchingPage extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 82,),
+            SizedBox(height: 60,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 60),
               child: Row(
@@ -120,16 +120,16 @@ class WhoWatchingPage extends StatelessWidget {
                 children: [
                   Column(
                     children: [
-                      Image.asset("assets/images/kavya_img.png"),
-                      SizedBox(height: 8), // Space between image and text
-                      Text("Kavya",
+                      Image.asset("assets/images/add.png",height: 100, width: 100,),
+                      SizedBox(height: 8),
+                      Text("Add Profile",
                         style: TextStyle(
                             color: Color(0xFFFFFFFF),
                             fontSize: 14
-                        ),
-                      ),
+                        ),)
                     ],
                   ),
+
                 ],
               ),
             ),

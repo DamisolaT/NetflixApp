@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:netflix/widgets/movie_catelogs.dart';
+import 'package:netflix/shared/widgets/movie_catelogs.dart';
+
 
 class MoviesPage extends StatelessWidget {
   const MoviesPage({super.key});

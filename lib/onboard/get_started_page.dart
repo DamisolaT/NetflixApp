@@ -1,8 +1,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:netflix/auth/sign_in_page.dart';
-import 'package:netflix/widgets/get_started_button.dart';
-import 'package:netflix/widgets/textformfield.dart';
+import 'package:netflix/shared/widgets/get_started_button.dart';
+
+
+import '../shared/widgets/textformfield.dart';
 
 class GetStartedPage extends StatelessWidget {
   const GetStartedPage({super.key});
